@@ -40,23 +40,41 @@ footer {
     background-color: var(--footer-background);
 }
 
-.page-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border: 1px solid aqua;
-    border-radius: 5px;
-    margin: 10px;
+h2 {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 26px;
+
 }
+
+.nav-container, .nav-container2 {
+    padding-left: 10%;
+    font-size: 0.6rem
+    font-family: 'Aria', sans-serif;
+    font-weight: 300;
+}
+
 .whole-grid div {
-    border: solid 1px black;
+    border: solid 1px lightgray;
 }
 
 body {
-    background: linear-gradient(#fff 20%, #06f);
+    background: white;
 }
 
+.logo {
+    height: 80px;
+    width: auto;
+    margin-right: 10px;
+
+}
+
+.brand {
+    font-size: 1.2em;
+    font-weight: 1700;
+    line-height: 1.5em;
+}
 
 .whole-grid {
     display: grid;
@@ -68,11 +86,16 @@ body {
 .whole-grid .top {
     display: grid;
     grid-template-rows: 15% 85%;
+    grid-template-columns: 20% 80%;
 }
 
 .whole-grid .bottom {
     display: grid;
     grid-template-columns: 15% 85%;
+}
+
+div nav {
+    display: grid;
 }
 
 .box-3 {
@@ -88,12 +111,36 @@ body {
 
 .box-5 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
 }
 
 .box-6 {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.where-to {
+
+
+}
+
+.popular {
+    margin-bottom: 10px;
+}
+
+.box-7 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.dest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 60%;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 10px;
 }
 
 .bottom {
